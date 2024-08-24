@@ -35,6 +35,7 @@ header{
 
 .nav{
     display: flex;
+    color: #ffffff;
 }
 
 .nav li{
@@ -51,8 +52,10 @@ header{
     transition: 0.3s;
 }
 
-.nav li:hover a{
+.nav li a:hover{
     color: var(--primary);
+    text-decoration: underline;
+    font-size: 20px;
 }
 
 .search{
@@ -98,7 +101,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url('../movie_images/bg-little-mermaid.jpg') no-repeat;
+    background: url('../movie_images/bg-the-covenant.jpeg') no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -216,7 +219,7 @@ header{
 .carousel{
     position: relative;
     height: 550px;
-    perspective: 1500;
+    perspective: 1500px;
 }
 
 .carousel .carousel-item{

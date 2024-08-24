@@ -1,2 +1,6 @@
 have commited the latest changes on 22-08-2024
         that is added carousel which led to dynamic looks of the site
+
+
+on 24-08-2024
+        made some changes in the index file and added a bit more style to the navigation bar and uploaded images used for the adult section in the navigation bar

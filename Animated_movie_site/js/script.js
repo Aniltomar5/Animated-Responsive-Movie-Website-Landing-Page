@@ -5,10 +5,10 @@ function toggleVideo(){
     trailer.classList.toggle('active');
 }
 
-function changeBg(bg, tittle){
+function changeBg(bg, title){
     const banner = document.querySelector('.banner');
-    const contents = document.querySelector('.content');
-    banner.style.background = 'url("../movie_images/${bg}")';
+    const contents = document.querySelectorAll('.content');
+    banner.style.background = `url("movie_images/${bg}")`;
     banner.style.backgroundSize = 'cover';
     banner.style.backgroundPosition = 'center';
 
@@ -17,5 +17,5 @@ function changeBg(bg, tittle){
         if(content.classList.contains(title)){
             content.classList.add('active');
         }
-    })
+    });
 }
